@@ -3,28 +3,27 @@
 Live link: http://flip1.engr.oregonstate.edu:17590/
 
 #### Homepage
-* Picture carousel (i.e. slideshow) that has autoplay and forward/back buttons. Implemented using Bootstrap 4. (picture carousel)
-* Addition links at the bottom of the page that leads to other parts of the website. (internal links)
+* (Picture carousel) - has autoplay and forward/back buttons. (Bootstrap 4)
+* (Links) -located at the bottom of the page that leads to other parts of the website. (HTML/CSS)
 
 #### News
-* Several unordered HTML list elements, where the entries describe Path of Exile's development timeline. (unordered HTML lists)
-* Entries are placed inside a scrollbox. (scrollbox)
+* (Unordered HTML list) - entries describe Path of Exile's development timeline. (HTML/CSS)
+* (Scrollbox) - entries located inside a scrollbox. 
 
 #### Media
-* Two YouTube embedded videos, which are implemented using HTML/iframes. (videos)
-* Several download buttons for random fruit images. (download buttons)
+* (Videos) - Two YouTube embedded videos. (HTML)
+* (Download buttons) - you can have some fruit images. (HTML/CSS)
 
 #### Ladder 
-* A table with player ranking data from Path of Exile's official API. (Ajax/JS)
-* The table is also placed inside a scrollbox.
+* (Scroll/Other) - A table with player ranking data from Path of Exile's official API. (JS/Ajax)
 
 #### Contact Us
-* Leave a comment form, where the data is sent to http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php (POST request)
-* Subscribe form, where the data is posted to https://httpbin.org/ and received back into a corresponding table. (POST request)
+* (POST form) - Leave a comment form, where the data is sent to http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php (HTML)
+* (POST form) - Subscribe form, where the data is posted to https://httpbin.org/ and when returned it is added to the member table at the right side. (JS/Ajax)
 
 #### General
-* All pages include the same horizontal menu bar, with external links. Implemented using JS. (JS/DOM)
-* Different background images for most subpages.
+* (Horizontal menu) - included in all pages, where buttons lead to internal or external pages. (JS)
+* (Pictures) Different background images for most pages. (HTML/CSS)
 
 # References
 #### Homepage
