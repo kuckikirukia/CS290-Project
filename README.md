@@ -16,14 +16,16 @@ Live link: http://flip1.engr.oregonstate.edu:17590/
 
 #### Ladder 
 * (Scroll/Other) - A table with player ranking data from Path of Exile's official API. (JS/Ajax)
+* (Link) - tiny source link below the table. (JS/DOM)
 
 #### Contact Us
 * (POST form) - Leave a comment form, where the data is sent to http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php (HTML)
 * (POST form) - Subscribe form, where the data is posted to https://httpbin.org/ and when returned it is added to the member table at the right side. (JS/Ajax)
 
 #### General
-* (Horizontal menu) - included in all pages, where buttons lead to internal or external pages. (JS)
-* (Pictures) Different background images for most pages. (HTML/CSS)
+* (Horizontal menu) - included in all pages, where buttons lead to internal or external pages. (JS/DOM)
+* (Pictures) - Different background images for most pages. (HTML/CSS)
+* (Other) - server creation. (NodeJS/Express)
 
 # References
 #### Homepage
@@ -60,5 +62,8 @@ Live link: http://flip1.engr.oregonstate.edu:17590/
 * link style - https://www.w3schools.com/css/css_link.asp
 * button style - https://www.w3schools.com/css/css3_buttons.asp
 * colors - https://www.w3schools.com/colors/colors_picker.asp
+* background properties - https://www.w3schools.com/cssref/pr_background-attachment.asp*/
+* div manipulation - https://stackoverflow.com/questions/5590214/make-child-div-stretch-across-width-of-page
+* button manipulation - https://www.w3schools.com/howto/howto_css_round_buttons.asp
+* button hover - https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
 
-*More to be added!*
