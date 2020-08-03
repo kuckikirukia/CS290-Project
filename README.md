@@ -1,2 +1,65 @@
 # CS290-Project
-website project
+
+Live link: http://flip1.engr.oregonstate.edu:17590/
+
+#### Homepage
+* Picture carousel (i.e. slideshow) that has autoplay and forward/back buttons. Implemented using Bootstrap 4. (picture carousel)
+* Addition links at the bottom of the page that leads to other parts of the website. (internal links)
+
+#### News
+* Several unordered HTML list elements, where the entries describe Path of Exile's development timeline. (unordered HTML lists)
+* Entries are placed inside a scrollbox. (scrollbox)
+
+#### Media
+* Two YouTube embedded videos, which are implemented using HTML/iframes. (videos)
+* Several download buttons for random fruit images. (download buttons)
+
+#### Ladder 
+* A table with player ranking data from Path of Exile's official API. (Ajax/JS)
+* The table is also placed inside a scrollbox.
+
+#### Contact Us
+* Leave a comment form, where the data is sent to http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php (POST request)
+* Subscribe form, where the data is posted to https://httpbin.org/ and received back into a corresponding table. (POST request)
+
+#### General
+* All pages include the same horizontal menu bar, with external links. Implemented using JS. (JS/DOM)
+* Different background images for most subpages.
+
+# References
+#### Homepage
+* Bootstrap 4 (picture carousel) - https://getbootstrap.com/docs/4.0/components/carousel/
+* Bootstrap 4 (jumbotron) - https://getbootstrap.com/docs/4.0/components/jumbotron/
+* Background image - https://www.reddit.com/r/pathofexile/comments/7i6kfo/help_me_expand_my_path_of_exile_wallpaper/
+* Picture carousel images - captured by myself in-game - https://www.pathofexile.com/
+* Readme link icon - https://www.deviantart.com/7soul1/art/420-Pixel-Art-Icons-for-RPG-129892453
+
+#### News
+* Background image - https://www.reddit.com/r/pathofexile/comments/7i6kfo/help_me_expand_my_path_of_exile_wallpaper/
+* Development Timeline content - https://en.wikipedia.org/wiki/Path_of_Exile
+* HTML li images - https://www.deviantart.com/7soul1/art/420-Pixel-Art-Icons-for-RPG-129892453
+* li element spacing - https://stackoverflow.com/questions/4373046/css-control-space-between-bullet-and-li
+* li bullet image change - https://love2dev.com/blog/customize-bulleted-list/ & https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image
+
+#### Media
+* Embedding videos - https://getbootstrap.com/docs/4.0/utilities/embed/ & https://www.w3schools.com/html/html_iframe.asp
+* Embedded YouTube videos - GameSpot Trailers (YouTube channel)
+* Download link images - https://www.deviantart.com/7soul1/art/420-Pixel-Art-Icons-for-RPG-129892453
+* Background image - https://www.reddit.com/r/pathofexile/comments/46lxng/new_background_from_pathofexilecom_for_those_of/
+
+#### Ladder
+* API data - https://www.pathofexile.com/developer/docs/api-resource-ladders
+* Background image - https://www.reddit.com/r/pathofexile/comments/dpk8v5/whats_your_favorite_1440p_poe_wallpaper/ 
+* Ajax / API implementation - (Activity 5 - Ajax Interactions) - https://oregonstate.instructure.com/courses/1776072/assignments/7969401?module_item_id=19740559
+
+#### Contact Us
+* Leave a comment form - (HW2:HTML/CSS & CS290 Course Lecture) - https://eecs.oregonstate.edu/ecampus-video/CS290/core-content/html-css/html-forms.html
+* Subscribe form - (Activity 5 - Ajax Interactions & HW4:DOM and Events)
+* Background image - https://www.reddit.com/r/pathofexile/comments/8vb8m8/path_of_exile_wallpaper_1920x1080/
+
+#### General
+* link style - https://www.w3schools.com/css/css_link.asp
+* button style - https://www.w3schools.com/css/css3_buttons.asp
+* colors - https://www.w3schools.com/colors/colors_picker.asp
+
+*More to be added!*
